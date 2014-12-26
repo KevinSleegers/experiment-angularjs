@@ -1,0 +1,54 @@
+// Import fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
+// Predefined variables
+@main: #f5f5f5;
+@grey: #a1a1a1;
+
+body {
+	background: @main;
+
+	.container {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+
+		h1 {
+			font-weight: 500;
+			font-size: 36px;
+			margin: 40px auto 0 auto;
+		}
+
+		h2 {
+			font-weight: 400;
+			font-size: 18px;
+			margin: 0 auto 40px auto;
+		}
+
+		label {
+			font-weight: 400;
+		}
+
+		footer {
+			margin-top: 40px;
+		}
+
+		.loader {
+			text-align: center;
+
+			i {
+				font-size: 40px;
+				color: @grey;
+				display: block;
+			}
+
+			span {
+				font-style: italic;
+			}
+		}
+
+		.search-result-download {
+			display: inline-block;
+			margin: 40px auto;
+		}
+	}
+}

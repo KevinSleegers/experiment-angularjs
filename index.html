@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Angular.js experiment</title>
+
+		<!-- Bootstrap default css -->
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+		<!-- FontAwesome -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- My custom css -->
+		<link rel="stylesheet" href="css/main.css">		
+	</head>
+	<body>
+		<div class="container" ng-app="app">
+			<header ng-include="'templates/header.html'"></header>
+			<div ui-view></div>			
+			<footer ng-include="'templates/footer.html'"></footer>
+		</div>
+
+		<!-- Start: Bower scripts -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+		<script src="bower_components/angular-youtube-mb/dist/angular-youtube-embed.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<!-- End: Bower scripts -->
+
+		<!-- Start: App scripts -->
+		<script src="app.js"></script>
+		<!-- End: App scripts -->
+
+	</body>
+</html>
